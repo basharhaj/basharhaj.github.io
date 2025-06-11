@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة الملك عبدالله</title>
+    <link rel="stylesheet" href="school.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="شعار مدرسة الملك عبدالله">
+                <h1>مدرسة الملك عبدالله</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#about">عن المدرسة</a></li>
+                    <li><a href="#academics">المناهج</a></li>
+                    <li><a href="#teachers">المعلمون</a></li>
+                    <li><a href="#news">الأخبار</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>مرحباً بكم في مدرسة الملك عبدالله</h2>
+                <p>نقدم تعليماً متميزاً يواكب متطلبات العصر مع الحفاظ على القيم الإسلامية والعربية</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn">تعرف على المزيد</a>
+                    <a href="#contact" class="btn btn-outline">سجل الآن</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="photo-school.gif" alt="مبنى المدرسة">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title">عن مدرسة الملك عبدالله</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>تأسست مدرسة الملك عبدالله عام 2005 بهدف تقديم تعليم متميز يجمع بين الأصالة والمعاصرة. نحن نؤمن بأن التعليم هو أساس تقدم الأمم.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>جودة التعليم</h3>
+                            <p>مناهج معتمدة وطرق تدريس حديثة</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h3>كادر تعليمي متميز</h3>
+                            <p>معلمون مؤهلون وذوو خبرة</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-microscope"></i>
+                            <h3>مختبرات متطورة</h3>
+                            <p>تجهيزات علمية حديثة للتعلم العملي</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="school-class.webp" alt="فصول المدرسة">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section class="academics section" id="academics">
+        <div class="container">
+            <h2 class="section-title">المناهج الدراسية</h2>
+            <div class="academics-tabs">
+                <button class="tab-btn active" data-tab="primary">المرحلة الابتدائية</button>
+                <button class="tab-btn" data-tab="intermediate">المرحلة المتوسطة</button>
+                <button class="tab-btn" data-tab="secondary">المرحلة الثانوية</button>
+            </div>
+            <div class="academics-content">
+                <div class="tab-content active" id="primary">
+                    <h3>المرحلة الابتدائية</h3>
+                    <p>تركز المرحلة الابتدائية على بناء الأساسيات في القراءة والكتابة والحساب مع تنمية المهارات الاجتماعية والإبداعية.</p>
+                    <ul class="subjects">
+                        <li>اللغة العربية</li>
+                        <li>الرياضيات</li>
+                        <li>العلوم</li>
+                        <li>التربية الإسلامية</li>
+                        <li>اللغة الإنجليزية</li>
+                        <li>التربية الفنية</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="intermediate">
+                    <h3>المرحلة المتوسطة</h3>
+                    <p>توسيع المعارف الأساسية وإعداد الطلاب للمرحلة الثانوية مع التركيز على التفكير النقدي وحل المشكلات.</p>
+                    <ul class="subjects">
+                        <li>اللغة العربية</li>
+                        <li>الرياضيات</li>
+                        <li>العلوم</li>
+                        <li>التربية الإسلامية</li>
+                        <li>اللغة الإنجليزية</li>
+                        <li>الاجتماعيات</li>
+                        <li>الحاسب الآلي</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="secondary">
+                    <h3>المرحلة الثانوية</h3>
+                    <p>إعداد الطلاب للجامعة والحياة العملية مع تخصصات علمية وأدبية وفقاً لميول الطلاب وقدراتهم.</p>
+                    <ul class="subjects">
+                        <li>اللغة العربية</li>
+                        <li>الرياضيات</li>
+                        <li>الفيزياء</li>
+                        <li>الكيمياء</li>
+                        <li>الأحياء</li>
+                        <li>اللغة الإنجليزية</li>
+                        <li>التربية الإسلامية</li>
+                        <li>الاجتماعيات</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section class="teachers section" id="teachers">
+        <div class="container">
+            <h2 class="section-title">كادرنا التعليمي</h2>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <img src="teacher Ahmed.webp" alt="المعلم أحمد محمد">
+                    <h3>أ. أحمد محمد</h3>
+                    <p>مدرس اللغة العربية</p>
+                    <p>خبرة 15 سنة في التدريس</p>
+                </div>
+                <div class="teacher-card">
+                    <img src="teacher-sara.webp" alt="المعلمة سارة عبدالله">
+                    <h3>أ. سارة عبدالله</h3>
+                    <p>مدرسة الرياضيات</p>
+                    <p>حاصلة على ماجستير في الرياضيات</p>
+                </div>
+                <div class="teacher-card">
+                    <img src="teacher-khalid.jpg" alt="المعلم خالد إبراهيم">
+                    <h3>أ. خالد إبراهيم</h3>
+                    <p>مدرس العلوم</p>
+                    <p>متخصص في طرق التدريس الحديثة</p>
+                </div>
+                <div class="teacher-card">
+                    <img src="teacher-fatima.png" alt="المعلمة فاطمة علي">
+                    <h3>أ. فاطمة علي</h3>
+                    <p>مدرسة اللغة الإنجليزية</p>
+                    <p>خريجة جامعة كامبريدج</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news section" id="news">
+        <div class="container">
+            <h2 class="section-title">أحدث الأخبار</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="nat-day.jpeg" alt="فعاليات اليوم الوطني">
+                    <div class="news-content">
+                        <h3>احتفال المدرسة باليوم الوطني</h3>
+                        <p class="news-date">10 سبتمبر 2025</p>
+                        <p>نظمت المدرسة فعاليات متنوعة بمناسبة اليوم الوطني، تضمنت أنشطة ثقافية وفنية.</p>
+                        <a href="#" class="read-more">اقرأ المزيد</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="qran.jpg" alt="مسابقة القرآن الكريم">
+                    <div class="news-content">
+                        <h3>مسابقة القرآن الكريم السنوية</h3>
+                        <p class="news-date">5 أغسطس 2025</p>
+                        <p>اختتمت مسابقة القرآن الكريم السنوية بمشاركة 50 طالباً من مختلف المراحل.</p>
+                        <a href="#" class="read-more">اقرأ المزيد</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="garli.webp" alt="المعرض العلمي">
+                    <div class="news-content">
+                        <h3>المعرض العلمي السنوي</h3>
+                        <p class="news-date">20 يوليو 2025</p>
+                        <p>شهد المعرض العلمي إقبالاً كبيراً وعرض مشاريع إبداعية لطلاب المدرسة.</p>
+                        <a href="#" class="read-more">اقرأ المزيد</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>شارع الملك فيصل، الرياض، المملكة العربية السعودية</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+966 11 123 4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@kingabdullahschool.edu.sa</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>أرسل رسالة</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="الاسم الكامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="رقم الهاتف">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="">اختر الموضوع</option>
+                                <option value="admission">الاستفسار عن القبول</option>
+                                <option value="academics">استفسار أكاديمي</option>
+                                <option value="feedback">ملاحظات ومقترحات</option>
+                                <option value="other">موضوع آخر</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="الرسالة" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">إرسال الرسالة</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="شعار مدرسة الملك عبدالله">
+                    <h3>مدرسة الملك عبدالله</h3>
+                    <p>نور العلم يضيء المستقبل</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">عن المدرسة</a></li>
+                        <li><a href="#academics">المناهج</a></li>
+                        <li><a href="#teachers">المعلمون</a></li>
+                        <li><a href="#news">الأخبار</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>النشرة البريدية</h4>
+                    <p>اشترك ليصلك كل جديد عن المدرسة</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit" class="btn">اشترك</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 مدرسة الملك عبدالله. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // script.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile Menu Toggle (RTL compatible)
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navbar = document.querySelector('.navbar');
+    
+    if (mobileMenuBtn && navbar) {
+        mobileMenuBtn.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+    }
+
+    // Close mobile menu when clicking on a link (RTL optimized)
+    const navLinks = document.querySelectorAll('.navbar ul li a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navbar.classList.remove('active');
+            mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+            mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+        });
+    });
+
+    // Sticky Header with RTL support
+    const header = document.querySelector('.header');
+    if (header) {
+        window.addEventListener('scroll', function() {
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    }
+
+    // Academics Tabs (RTL compatible)
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    if (tabBtns.length > 0) {
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons and contents
+                tabBtns.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // Show corresponding content
+                const tabId = this.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+    }
+
+    // Contact Form Submission (Arabic validation)
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Simple Arabic validation
+            if (!name || !email || !message) {
+                alert('الرجاء ملء جميع الحقول المطلوبة');
+                return;
+            }
+            
+            // Here you would typically send the data to a server
+            // For demo, we'll show a success message in Arabic
+            alert(`شكراً لك ${name}! تم استلام رسالتك وسنتواصل معك قريباً بخصوص ${subject}.`);
+            
+            // Reset form
+            contactForm.reset();
+        });
+    }
+
+    // Newsletter Form (Arabic validation)
+    const newsletterForm = document.getElementById('newsletterForm');
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const emailInput = newsletterForm.querySelector('input[type="email"]');
+            const email = emailInput.value;
+            
+            // Simple email validation
+            if (!email.includes('@') || !email.includes('.')) {
+                alert('الرجاء إدخال بريد إلكتروني صحيح');
+                return;
+            }
+            
+            // Success message in Arabic
+            alert('شكراً لك على الاشتراك في نشرتنا البريدية!');
+            newsletterForm.reset();
+        });
+    }
+
+    // Smooth Scrolling for Anchor Links (RTL optimized)
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                // Calculate offset considering RTL layout
+                const offset = 80;
+                const elementPosition = targetElement.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+                
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Animation on Scroll for RTL (using Animate.css)
+    function animateOnScroll() {
+        const elements = document.querySelectorAll('.feature, .teacher-card, .news-card');
+        
+        elements.forEach(element => {
+            const elementPosition = element.getBoundingClientRect().top;
+            const screenPosition = window.innerHeight / 1.2;
+            
+            if (elementPosition < screenPosition) {
+                element.classList.add('animate__animated', 'animate__fadeInUp');
+            }
+        });
+    }
+
+    // Initialize animations
+    window.addEventListener('load', animateOnScroll);
+    window.addEventListener('scroll', animateOnScroll);
+
+    // Back to Top Button (RTL style)
+    const backToTopBtn = document.querySelector('.back-to-top');
+    if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    // Teachers Section - Interactive Cards
+    const teacherCards = document.querySelectorAll('.teacher-card');
+    teacherCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px)';
+        });
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+
+    // Current Year for Footer
+    document.querySelector('.footer-bottom p').innerHTML = `&copy; ${new Date().getFullYear()} مدرسة الملك عبدالله. جميع الحقوق محفوظة.`;
+});
+
+    </script>
+</body>
+</html>
